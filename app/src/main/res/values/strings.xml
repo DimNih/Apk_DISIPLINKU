@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">DISIPLINKU</string>
+    <string name="logout" translatable="false">Logout</string>
+</resources>

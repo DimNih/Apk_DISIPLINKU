@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Header Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFA500"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <!-- Main Content Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- School Name Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="SMK PK CIBITUNG"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#FF8C00" />
+
+        <!-- Home Text Section -->
+        <TextView
+            android:id="@+id/HomeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Dengan menaati peraturan, kita bersama-sama menciptakan lingkungan yang aman, nyaman, dan penuh semangat untuk belajar dan berkembang. Setiap aturan ada untuk menjaga kebersamaan, menghargai hak satu sama lain, dan membangun rasa tanggung jawab. Satu langkah kecil kita bersama dalam ketaatan bisa membawa perubahan besar membuat sekolah ini tempat yang baik bagi kita semua untuk mencapai impian dan masa depan yang cemerlang!"
+            android:textSize="18sp"
+            android:lineSpacingExtra="8dp"
+            android:lineSpacingMultiplier="1.2"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <!-- Footer Button Section (Anchored at the Bottom) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#FFA500"
+        android:padding="20dp">
+
+        <ImageButton
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_library"
+            android:background="@drawable/button_select"
+            android:contentDescription="@string/logout"
+            android:padding="12dp"
+            android:layout_marginEnd="16dp" />
+
+        <ImageButton
+            android:id="@+id/profileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_profile"
+            android:background="@drawable/button_select"
+            android:onClick="goToInput"
+            android:padding="12dp"
+            android:layout_marginEnd="16dp" />
+
+        <ImageButton
+            android:id="@+id/historyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_history"
+            android:background="@drawable/button_select"
+            android:onClick="goToHistory"
+            android:padding="12dp"
+            android:layout_marginEnd="16dp" />
+
+
+        <ImageButton
+            android:id="@+id/forwardButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_forward"
+            android:background="@drawable/button_select"
+            android:onClick="goToRegister"
+            android:padding="12dp" />
+    </LinearLayout>
+</LinearLayout>
