@@ -1,4 +1,4 @@
-# DISIPLINKU - Aplikasi Mobile Pencatat Pelanggaran Siswa
+# DISIPLINKU - Aplikasi Mobile Pencatat Pelanggaran Siswa @Beta
 
 **DISIPLINKU** adalah aplikasi mobile yang dirancang untuk mencatat dan mengelola data siswa yang melanggar aturan sekolah. Aplikasi ini memberikan kemudahan untuk mengisi data pelanggaran, serta menyediakan menu untuk Login, Register, Home, Isi Data, dan List.
 
